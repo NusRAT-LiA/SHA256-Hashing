@@ -1,6 +1,7 @@
 # SHA256-Hashing
 
-![SHA256 Logo](sha256_logo.png)
+![sha-256](https://github.com/NusRAT-LiA/SHA256-Hashing/assets/109500758/3f3ffef9-0424-43ca-b159-9e3eab5beb96)
+
 
 Welcome to the SHA256-Hashing repository! This project provides a C++ implementation of the SHA-256 cryptographic hash function. SHA-256 is a widely used cryptographic hash algorithm that generates a 256-bit hash value.
 
@@ -16,7 +17,7 @@ Welcome to the SHA256-Hashing repository! This project provides a C++ implementa
 
 To use the SHA256-Hashing library in your project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/SHA256-Hashing.git`
+1. Clone the repository: `git clone https://github.com/NusRAT-LiA/SHA256-Hashing.git`
 2. Copy the `sha256.h` and `sha256.cpp` files into your project directory.
 3. Include the `sha256.h` header file in your code: `#include "sha256.h"`
 4. Compile your project, linking the `sha256.cpp` source file.
@@ -43,7 +44,7 @@ int main() {
 
     return 0;
 }
-
+```
 
 For more details on the usage of the SHA256-Hashing library, please refer to the documentation within the `sha256.h` file.
 
@@ -54,7 +55,7 @@ The project includes a test suite in the `test.cpp` file to verify the correctne
 ```shell
 $ g++ -o test test.cpp
 $ ./test
-
+```
 The test suite will validate the computed hash values against expected hash values for various input cases.
 
 ## Contributing
