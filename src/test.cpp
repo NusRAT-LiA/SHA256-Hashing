@@ -1,5 +1,5 @@
 #include<iostream>
-#include"Sha256.h"
+#include"sha256.h"
 
 int main()
 {   
